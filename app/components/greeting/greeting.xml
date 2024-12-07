@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <ActionBar title="¡Hola Mundo!" />
+    <StackLayout class="p-6 items-center">
+        <Label text="{{ greeting }}" class="text-2xl mb-4 text-center text-blue-600" textWrap="true" />
+        <Button text="Cambiar Saludo" tap="{{ changeGreeting }}" class="bg-blue-500 text-white p-4 rounded-lg" />
+    </StackLayout>
+</Page>
